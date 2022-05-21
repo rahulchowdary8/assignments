@@ -1,0 +1,85 @@
+2022-05-17 14:09:40,248 INFO  StartupInfoLogger:55 - [] Starting CustomerDetailsApplication using Java 17.0.1 on Rahulchowdary with PID 9652 (C:\Users\dell\OneDrive\Desktop\carwash project\On-Demand-Car-Wash-System-main\Customer-Details\Customer-Details\target\classes started by dell in C:\Users\dell\OneDrive\Desktop\carwash project\On-Demand-Car-Wash-System-main\Customer-Details\Customer-Details)
+2022-05-17 14:09:40,276 INFO  SpringApplication:640 - [] No active profile set, falling back to 1 default profile: "default"
+2022-05-17 14:09:40,526 INFO  DeferredLog:255 - [] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-17 14:09:40,528 INFO  DeferredLog:255 - [] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-17 14:09:51,498 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-17 14:09:51,992 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 478 ms. Found 1 MongoDB repository interfaces.
+2022-05-17 14:09:53,261 INFO  GenericScope:283 - [] BeanFactory id=4740152b-129b-333c-a15d-e5c2567a6144
+2022-05-17 14:09:56,301 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9001 (http)
+2022-05-17 14:09:56,351 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-17 14:09:56,352 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-17 14:09:56,854 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-17 14:09:56,855 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 16322 ms
+2022-05-17 14:09:57,603 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-17 14:09:57,850 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:2, serverValue:130}] to localhost:27017
+2022-05-17 14:09:57,850 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:1, serverValue:131}] to localhost:27017
+2022-05-17 14:09:57,852 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=62920100}
+2022-05-17 14:09:58,330 WARN  CustomConversions:261 - [] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-17 14:09:58,647 WARN  CustomConversions:261 - [] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-17 14:09:59,439 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-17 14:10:02,546 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-05-17 14:10:04,181 INFO  DiscoveryClientOptionalArgsConfiguration:68 - [] Eureka HTTP Client uses RestTemplate.
+2022-05-17 14:10:04,727 WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82 - [] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-17 14:10:05,000 INFO  InstanceInfoFactory:67 - [] Setting initial instance status as: STARTING
+2022-05-17 14:10:05,443 INFO  DiscoveryClient:372 - [] Initializing Eureka in region us-east-1
+2022-05-17 14:10:05,466 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 14:10:05,574 INFO  DiscoveryClient:1007 - [] Disable delta property : false
+2022-05-17 14:10:05,575 INFO  DiscoveryClient:1008 - [] Single vip registry refresh property : null
+2022-05-17 14:10:05,576 INFO  DiscoveryClient:1009 - [] Force full registry fetch : false
+2022-05-17 14:10:05,577 INFO  DiscoveryClient:1010 - [] Application is null : false
+2022-05-17 14:10:05,578 INFO  DiscoveryClient:1011 - [] Registered Applications size is zero : true
+2022-05-17 14:10:05,579 INFO  DiscoveryClient:1013 - [] Application version is -1: true
+2022-05-17 14:10:05,580 INFO  DiscoveryClient:1097 - [] Getting all instance registry info from the eureka server
+2022-05-17 14:10:06,950 INFO  DiscoveryClient:1106 - [] The response status is 200
+2022-05-17 14:10:06,968 INFO  DiscoveryClient:1321 - [] Starting heartbeat executor: renew interval is: 30
+2022-05-17 14:10:06,989 INFO  InstanceInfoReplicator:60 - [] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-17 14:10:07,038 INFO  DiscoveryClient:492 - [] Discovery Client initialized at timestamp 1652776807035 with initial instances count: 4
+2022-05-17 14:10:07,052 INFO  EurekaServiceRegistry:41 - [] Registering application CUSTOMER-MICROSERVICE with eureka with status UP
+2022-05-17 14:10:07,065 INFO  DiscoveryClient$3:1352 - [] Saw local status change event StatusChangeEvent [timestamp=1652776807065, current=UP, previous=STARTING]
+2022-05-17 14:10:07,075 INFO  DiscoveryClient:873 - [] DiscoveryClient_CUSTOMER-MICROSERVICE/host.docker.internal:customer-microservice:9001: registering service...
+2022-05-17 14:10:07,314 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9001 (http) with context path ''
+2022-05-17 14:10:07,319 INFO  EurekaAutoServiceRegistration:144 - [] Updating port to 9001
+2022-05-17 14:10:07,382 INFO  DiscoveryClient:882 - [] DiscoveryClient_CUSTOMER-MICROSERVICE/host.docker.internal:customer-microservice:9001 - registration status: 204
+2022-05-17 14:10:08,887 INFO  StartupInfoLogger:61 - [] Started CustomerDetailsApplication in 30.315 seconds (JVM running for 32.791)
+2022-05-17 14:15:05,808 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 14:20:06,167 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 14:25:06,239 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 14:30:06,310 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 14:35:08,263 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 14:38:21,246 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 14:38:21,264 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-05-17 14:38:21,478 INFO  FrameworkServlet:547 - [] Completed initialization in 212 ms
+2022-05-17 14:38:22,894 INFO  CustomerController:72 - [] Add customer is running
+2022-05-17 14:38:24,092 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:3, serverValue:145}] to localhost:27017
+2022-05-17 14:38:34,240 INFO  CustomerController:72 - [] Add customer is running
+2022-05-17 14:40:08,818 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 14:40:47,306 INFO  CustomerController:72 - [] Add customer is running
+2022-05-17 14:40:59,711 INFO  CustomerController:125 - [] Authenticating the user!
+2022-05-17 14:41:02,095 INFO  CustomerController:144 - [] Getting the current user!
+2022-05-17 14:45:10,379 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 14:50:10,694 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 14:55:10,871 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 15:00:11,033 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 15:05:11,659 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 15:07:40,018 INFO  CustomerController:72 - [] Add customer is running
+2022-05-17 15:08:12,140 INFO  CustomerController:125 - [] Authenticating the user!
+2022-05-17 15:08:14,965 INFO  CustomerController:144 - [] Getting the current user!
+2022-05-17 15:10:03,624 INFO  CustomerController:155 - [] tracking my orders
+2022-05-17 15:10:12,427 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 15:11:05,326 INFO  CustomerController:155 - [] tracking my orders
+2022-05-17 15:11:42,991 INFO  CustomerController:155 - [] tracking my orders
+2022-05-17 15:12:32,258 INFO  CustomerController:155 - [] tracking my orders
+2022-05-17 15:13:16,201 INFO  CustomerController:125 - [] Authenticating the user!
+2022-05-17 15:13:16,421 INFO  CustomerController:144 - [] Getting the current user!
+2022-05-17 15:13:36,866 INFO  CustomerController:155 - [] tracking my orders
+2022-05-17 15:14:16,880 INFO  CustomerController:125 - [] Authenticating the user!
+2022-05-17 15:14:17,221 INFO  CustomerController:144 - [] Getting the current user!
+2022-05-17 15:15:12,457 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 15:20:12,505 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 15:21:26,175 INFO  CustomerController:125 - [] Authenticating the user!
+2022-05-17 15:21:26,519 INFO  CustomerController:144 - [] Getting the current user!
+2022-05-17 15:21:52,659 INFO  CustomerController:155 - [] tracking my orders
+2022-05-17 15:22:44,573 INFO  CustomerController:125 - [] Authenticating the user!
+2022-05-17 15:22:44,719 INFO  CustomerController:144 - [] Getting the current user!
+2022-05-17 15:25:14,423 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-05-17 15:30:14,520 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
